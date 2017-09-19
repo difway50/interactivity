@@ -1,0 +1,90 @@
+body {
+	background-image: url("../_images/treated/5.jpg");
+	background-repeat: no-repeat;
+	width: 85%;
+
+}
+
+main {
+    margin-bottom: 200%;
+}
+
+.floating-menu {
+    font-family: sans-serif;
+    /*background: gray;*/
+    padding: 5px 0;;
+    width: 10%;
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /*margin-top: 20px;*/
+    margin-right: 7%;
+    
+  }
+
+  .floating-menu a, 
+  .floating-menu h3 {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 0.5em;
+    color: white;
+    padding:1em;
+    
+  }
+
+div #box{
+  	background-color: gray;
+  	max-width: 100%;
+  	text-align: center;
+  	border-radius: 10%;
+  	
+
+  }
+a:hover{
+	opacity: 0.7;
+	color: black;
+}
+#head{
+	font-size: 8.0em;
+	font-family: futura;
+	font-weight: bold;
+	color: #FFE515;
+	margin-left: 20%;
+	margin-top: 25%;
+	text-align: center;
+
+}
+
+
+img{
+  max-width: 50%;
+  max-height: 50%;
+  /* display: inline-block; */
+  float: left;
+  margin-top: 55%;
+ /* position: relative; */
+}
+
+#images {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 100px;
+  position: relative;
+
+}
+
+img:hover{
+  opacity: 0.7;
+}
+
+.bottom_text{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    font-family: futura, sans-serif;
+    font-size: 3.0em;
+}
+
